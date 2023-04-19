@@ -103,8 +103,9 @@ data = load_data()
 result_container = st.container()
 result_container.subheader("Example Heuristic Rules")
 
-st.subheader("Try tweak the rule settings")
-payer_tab, payee_tab, others_tab = st.tabs(["Payer Quality", "Payee Quality", "Other Filters"])
+st.sidebar.subheader("Try tweak the rule settings")
+payer_tab, payee_tab, others_tab = st.sidebar.tabs(["Payer Quality", "Payee Quality", "Other Filters"])
+
 payer_tab.subheader("Payer Quality")
 min_payer_txns = payer_tab.slider("Min #transactions required ", min_value=2, max_value=20, value=10, step=2)
 max_payer_txn_days = payer_tab.slider("Min wallet tenure (days)", min_value=30, max_value=180, value=90, step=10)
