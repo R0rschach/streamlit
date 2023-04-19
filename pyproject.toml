@@ -6,11 +6,15 @@ authors = ["Lei Du <dulei66@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.10"
 streamlit = "^1.21.0"
 matplotlib = "^3.7.1"
 watchdog = "^3.0.0"
 
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+isort = "^5.12.0"
 
 [build-system]
 requires = ["poetry-core"]
