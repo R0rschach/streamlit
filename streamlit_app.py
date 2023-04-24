@@ -148,9 +148,9 @@ A significant portion of invoices on Request Network are settled on the Ethereum
 
 Based on these assumptions, we can create a set of rules to filter out those requests that don't meet the quality bar. And let the ones qualified to do invoice factoring. 
 
-Let’s look at this chart that demonstrates the impact of different filter rules. Each rule was evaluated individually, measuring the number of requests, payers, and payees that were filtered out. The combined impact of these rules showcases EA’s ability to analyze data and create sophisticated evaluation strategies.
+Let’s look at this table that demonstrates the impact of different filter rules. Each rule was evaluated individually, measuring the number of requests, payers, and payees that were filtered out. The combined impact of these rules showcases EA’s ability to analyze data and create sophisticated evaluation strategies.
 
-You can tweak the settings on using the sliders on the sidebar to see how result changes. 
+You can tweak the settings in the sidebar on the left to changes the results. 
 """)
 
 
@@ -205,7 +205,7 @@ result_container.dataframe(
 )
 
 st.write("""
-This is just a naive example. The actual EA  built on the Huma Protocol, can access any on-chain or off-chain data source, through adapters built on the open-source Decentralized Signal Portfolio. While this simple example used a single signal adapter to access on-chain payment history, many signal adapters can be used in combination to bring a richer set of risk signals into decision-making.
+This is just a preview into the full Huma Protocol EA. The actual EA can access any on-chain or off-chain data source, through adapters built on the open-source Decentralized Signal Portfolio. While this simple example used a single signal adapter to access on-chain payment history, many signal adapters can be used in combination to bring a richer set of risk signals into decision-making.
 
 
 Huma Protocol's Evaluation Agent and Decentralized Signal Portfolio are designed to enhance the capabilities and accuracy of underwriting in the DeFi lending space. By fostering a community-driven underwriting platform, the protocol aims to revolutionize the way such decisions are made in the DeFi ecosystem. 
