@@ -95,12 +95,10 @@ data = load_data()
 st.image("banner.png", use_column_width=True)
 st.write("# Risk Management through Huma Protocol’s Evaluation Agent")
 st.write(
-    "*Discover the power of Huma Protocol's Evaluation Agent and the security it brings to the DeFi lending ecosystem. Evaluation Agents can leverage sophisticated analysis techniques to ensure accurate underwriting decisions in a community-driven system.*"
+    "*Discover the power of Huma Protocol's Evaluation Agent and the capabilities it brings to the DeFi lending ecosystem. Evaluation Agents can leverage sophisticated analysis techniques to ensure accurate underwriting decisions in a community-driven system.*"
 )
 st.write("## The Challenge of Robust Underwriting in DeFi Lending")
 st.write("""
-In the Huma Protocol, establishing a reliable underwriting process is crucial, especially since we do not utilize an over-collateralized strategy where borrowers' assets secure their loans. A strong underwriting mechanism is vital to protect lending pools from losing money due to fraudulent activities or borrowers defaulting on loans. To tackle this challenge, Huma Protocol incorporates machine learning-powered Evaluation Agents (EAs) that analyze complex signals to deliver precise underwriting decisions for these loans.
-
 The Evaluation Agent (EA) functions as the risk management layer within the Huma Protocol, accountable for making informed underwriting decisions for the lending pools it supports. The objective of the EA platform is to develop a secure, community-driven system that facilitates accurate underwriting on a large scale while preserving transparency and decentralization.
 """)
          
